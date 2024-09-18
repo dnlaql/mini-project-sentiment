@@ -1,1 +1,10 @@
 streamlit
+pandas
+matplotlib
+wordcloud
+plotly
+numpy
+bertopic
+umap-learn
+hdbscan
+sentence-transformers
