@@ -21,7 +21,7 @@ st.set_page_config(
 def load_data():
     """Load the cleaned data from GitHub."""
     #url = 'https://raw.githubusercontent.com/dnlaql/Sentiment-Analysis-miniproject/main/cleaned_combined_data_with_aspects_and_sentiments.csv'
-    url = 'https://github.com/dnlaql/mini-project-sentiment/blob/411f216c40d022313c8e38c43441d536312290b1/dataset/final/cleaned_combined_data_with_aspects_and_sentiments.csv'
+    url = 'https://raw.githubusercontent.com/dnlaql/mini-project-sentiment/main/dataset/final/cleaned_combined_data_with_aspects_and_sentiments.csv'
     return pd.read_csv(url) #url github raw file
 
 # Load data
